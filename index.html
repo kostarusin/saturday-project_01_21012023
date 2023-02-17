@@ -4,37 +4,100 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>FoodSta main</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--Header-->
     <header>
-      <a href=""><img src="" alt="" /></a>
-      <nav>
-        <ul>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
-          <li><a href=""></a></li>
-        </ul>
-      </nav>
-      <button></button>
+      <div class="conteiner header-conteiner">
+        <a href="" class="header-logo-link"
+          ><svg class="header-logo-icon" width="66" height="52">
+            <use href="./images/icons.svg#icon-Vector"></use>
+          </svg>
+        </a>
+        <nav class="header-navigation">
+          <ul class="list navigation-list">
+            <li><a href="" class="link header-navigation-link">Home</a></li>
+            <li><a href="" class="link header-navigation-link">About</a></li>
+            <li><a href="" class="link header-navigation-link">Service</a></li>
+            <li><a href="" class="link header-navigation-link">Menu</a></li>
+            <li><a href="" class="link header-navigation-link">Contact</a></li>
+          </ul>
+        </nav>
+        <button type="button" class="header-btn">Order Now</button>
+      </div>
     </header>
-    <section>
-      <h2></h2>
-      <img src="" alt="" />
-      <p></p>
-      <ul>
-        <li>
-          <h3></h3>
-          <p></p>
-        </li>
-        <li>
-          <h3></h3>
-          <p></p>
-        </li>
-      </ul>
+    <section class="hero-section">
+      <div class="conteiner hero-conteiner">
+        <div class="hero-content">
+          <h1 class="hero-header">Enjoy Your Favorite Food From Anywhere</h1>
+          <p class="hero-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros elementum tristique. Duis cursus, mi quis
+            viverra ornare, eros dolor interdum nulla, ut commodo diam libero
+            vitae erat.
+          </p>
+          <button type="button" class="hero-btn">Order now</button>
+        </div>
+        <div class="hero-image-conteiner">
+          <img src="./images/meatballs-min.png" alt="Meatballs" />
+        </div>
+      </div>
     </section>
-    <button></button>
+    <!--Whatt's Special-->
+    <section>
+      <div class="conteiner ws-conteiner">
+        <!-- <div class="ws-section-img"> -->
+        <img
+          src="./images/aple-min.png"
+          alt="Green apple"
+          class="ws-section-img"
+        />
+        <!-- </div> -->
+        <div>
+          <h2 class="ws-header">What’s Special About Our Offerings</h2>
+          <p class="ws-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            varius enim in eros elementum tristique. Duis cursus, mi quis
+            viverra ornare, eros dolor interdum nulla, ut commodo diam libero
+            vitae erat.
+          </p>
+          <ul class="list ws-list">
+            <li class="ws-list-item">
+              <svg class="ws-list-icon" width="48" height="48">
+                <use href="./images/icons.svg#icon-rocket"></use>
+              </svg>
+              <p class="ws-list-header">Fasest Delivery</p>
+              <p class="ws-list-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros.
+              </p>
+            </li>
+            <li class="ws-list-item">
+              <svg class="ws-list-icon" width="48" height="48">
+                <use href="./images/icons.svg#icon-touch"></use>
+              </svg>
+              <p class="ws-list-header">Easy To Order</p>
+              <p class="ws-list-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros.
+              </p>
+            </li>
+          </ul>
+          <button type="button" class="ws-btn">Order Now</button>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

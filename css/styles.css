@@ -1,0 +1,194 @@
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.link {
+  text-decoration: none;
+  font-style: normal;
+}
+
+.list {
+  list-style: none;
+}
+
+.conteiner {
+  width: 100%;
+  max-width: 1280px;
+  padding-right: 16px;
+  padding-left: 16px;
+  margin: 0 auto;
+  outline: 2px solid red;
+}
+body {
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  color: #2c2c2c;
+  background-color: #f5f5f5;
+}
+
+/* Header */
+
+.header-conteiner {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo-link {
+  padding: 10px 0;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.navigation-list {
+  display: flex;
+  gap: 28px;
+}
+
+.header-navigation-link {
+  color: inherit;
+  padding: 28px 0;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.header-btn {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  min-width: 98px;
+  height: 32px;
+  background: #bbf330;
+  border: none;
+  border-radius: 30px;
+}
+
+/* Hero */
+
+.hero-section {
+  padding-top: 14px;
+}
+
+.hero-conteiner {
+  display: flex;
+}
+
+.hero-content {
+  width: 502px;
+}
+
+.hero-image-conteiner {
+  margin-left: auto;
+}
+
+.hero-header {
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 28px;
+  padding-top: 159px;
+}
+
+.hero-text {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+.hero-btn {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  min-width: 98px;
+  height: 32px;
+  background: #bbf330;
+  border: none;
+  border-radius: 30px;
+}
+
+/* Whatt's Special */
+
+.ws-conteiner {
+  display: flex;
+}
+
+.ws-section-img {
+  margin-right: auto;
+  width: 396px;
+  height: 502px;
+}
+
+.ws-header {
+  font-size: 42px;
+  line-height: 1.2;
+  width: 526px;
+  padding-top: 60px;
+  margin-bottom: 20px;
+}
+
+.ws-text {
+  font-size: 16px;
+  line-height: 1.5;
+  width: 500px;
+  margin-bottom: 40px;
+}
+
+.ws-list {
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.ws-list-item {
+  width: 253px;
+}
+
+.ws-list-icon {
+  margin-bottom: 8px;
+}
+
+.ws-list-header {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.4;
+  margin-bottom: 16px;
+}
+
+.ws-list-text {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.ws-btn {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  min-width: 106px;
+  height: 40px;
+  background: #ffffff;
+  border: 2px solid #7eb101;
+  border-radius: 30px;
+}
